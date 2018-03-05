@@ -1,10 +1,10 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
-var BUILD_DIR = path.resolve(__dirname, 'client');
-var APP_DIR = path.resolve(__dirname, 'client/components');
+const BUILD_DIR = path.resolve(__dirname, 'client');
+const APP_DIR = path.resolve(__dirname, 'client/components');
 
-var config = {
+const config = {
   resolve: { extensions: ['.jsx', '.js'] },
   entry: APP_DIR + '/index.jsx',
   output: {
