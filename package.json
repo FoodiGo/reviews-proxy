@@ -1,0 +1,38 @@
+{
+  "name": "reviews-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for FoodiGo (sara)",
+  "main": "server/index.js",
+  "scripts": {
+    "babel": "./node_modules/.bin/webpack -d --watch",
+    "server-start": "node server/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoodiGo/reviews-proxy.git"
+  },
+  "author": "Sara Brandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoodiGo/reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/FoodiGo/reviews-proxy#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.2"
+  }
+}
