@@ -1,0 +1,29 @@
+{
+  "name": "reviews-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for FoodiGo (sara)",
+  "main": "server/index.js",
+  "scripts": {
+    "server-start": "node server/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoodiGo/reviews-proxy.git"
+  },
+  "author": "Sara Brandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoodiGo/reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/FoodiGo/reviews-proxy#readme",
+  "dependencies": {
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "jest": "^22.4.2"
+  }
+}
