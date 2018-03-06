@@ -1,0 +1,36 @@
+#prox-app {
+  display: flex;
+  flex-direction: column;
+}
+
+#prox-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: flex-end;
+}
+
+#prox-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: flex-start;
+}
+
+#prox-title-map {
+  margin: 5px;
+  flex-basis: 375px;
+}
+
+#prox-photos {
+  margin: 5px;
+}
+
+#prox-reviews {
+  margin: 5px;
+}
+
+#prox-sidebar{
+  margin: 5px;
+  flex-basis: 375px;
+}
