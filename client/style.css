@@ -8,6 +8,7 @@
   flex-direction: row;
   justify-content: stretch;
   align-items: flex-end;
+  margin-left: 50px;
 }
 
 #prox-bottom {
@@ -15,22 +16,22 @@
   flex-direction: row;
   justify-content: stretch;
   align-items: flex-start;
+  margin-left: 50px;
 }
 
 #prox-title-map {
-  margin: 5px;
-  flex-basis: 375px;
+  padding: 5px;
+  flex-basis: 350px;
 }
 
 #prox-photos {
-  margin: 5px;
 }
 
 #prox-reviews {
-  margin: 5px;
+  padding: 5px;
 }
 
 #prox-sidebar{
-  margin: 5px;
+  padding: 5px;
   flex-basis: 375px;
 }

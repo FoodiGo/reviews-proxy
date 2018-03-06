@@ -4,6 +4,7 @@
     <title>FoodiGo</title>
     <link rel="stylesheet" type="text/css" href="http://localhost:8001/style.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:3000/style.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:3400/style.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -22,9 +23,10 @@
     <script src="http://localhost:8001/bundle.js"></script>
     <script src="http://localhost:3000/bundle.js"></script>
     <script src="http://localhost:3001/bundle.js"></script>
+    <script src="http://localhost:3400/bundle.js"></script>
     <script>
       ReactDOM.render(
-        React.createElement(title, { id: 132 }, null),
+        React.createElement(TitleMap, { id: 132 }, null),
         document.getElementById('prox-title-map'),
       );
     </script>
@@ -38,6 +40,12 @@
       ReactDOM.render(
         React.createElement(ReviewApp, { restaurantId: 132 }, null),
         document.getElementById('prox-reviews'),
+      );
+    </script>
+    <script>
+      ReactDOM.render(
+        React.createElement(Sidebar, { id: 132 }, null),
+        document.getElementById('prox-sidebar'),
       );
     </script>
   </body>
