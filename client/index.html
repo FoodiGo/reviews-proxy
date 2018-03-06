@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>FoodiGo</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http://localhost:8001/style.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:3000/style.css">
     <link rel="stylesheet" type="text/css" href="http://localhost:3400/style.css">
@@ -38,13 +39,13 @@
     </script>
     <script>
       ReactDOM.render(
-        React.createElement(ReviewApp, { restaurantId: 132 }, null),
+        React.createElement(ReviewApp, { restaurantId: 123 }, null),
         document.getElementById('prox-reviews'),
       );
     </script>
     <script>
       ReactDOM.render(
-        React.createElement(Sidebar, { id: 132 }, null),
+        React.createElement(Sidebar, { id: 132, location: window.navigator.geolocation }, null),
         document.getElementById('prox-sidebar'),
       );
     </script>
