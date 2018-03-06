@@ -4,7 +4,7 @@
   "description": "Proxy server for FoodiGo (sara)",
   "main": "server/index.js",
   "scripts": {
-    "server-start": "node server/index.js",
+    "server-start": "nodemon server/index.js",
     "test": "jest"
   },
   "repository": {
@@ -18,12 +18,16 @@
   },
   "homepage": "https://github.com/FoodiGo/reviews-proxy#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
     "webpack": "^3.11.0"
   },
   "devDependencies": {
     "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
-    "jest": "^22.4.2"
+    "jest": "^22.4.2",
+    "nodemon": "^1.17.1"
   }
 }
