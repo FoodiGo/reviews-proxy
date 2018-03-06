@@ -67,3 +67,6 @@ app.get('/information/:restaurantId', (req, res) => {
 app.listen(8000, () => {
   console.log('Listening on port 8000'); // eslint-disable-line
 });
+
+module.exports = app;
+
