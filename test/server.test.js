@@ -62,15 +62,6 @@ describe('Proxy Server', () => {
       ));
   });
 
-  test('server responds with data from sidebar component', (done) => {
-    request(app)
-      .get('/information/123')
-      .expect(checkRes)
-      .end(err => (
-        err ? done(err) : done()
-      ));
-  });
-
   test('server handles put requests to review component', (done) => {
     request(app)
       .put(`/restaurants/123/reviews/${putId}`)
