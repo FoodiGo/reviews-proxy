@@ -9,6 +9,7 @@
   justify-content: stretch;
   align-items: flex-end;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 #prox-bottom {
@@ -17,14 +18,17 @@
   justify-content: stretch;
   align-items: flex-start;
   margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 
 #prox-title-map {
   padding: 5px;
-  flex-basis: 425px;
+  flex-basis: 800px;
 }
 
 #prox-photos {
+  margin-left: -500px;
 }
 
 #prox-reviews {
@@ -32,5 +36,22 @@
 }
 
 #prox-sidebar{
+  margin-top: 15px;
   padding: 5px;
 }
+
+#prox-logo {
+  height: 60px;
+  margin-left: 50px;
+}
+
+#prox-header {
+  height: 60px;
+  background-color: #FC5D60;
+}
+
+#prox-header-bottom, #prox-header-top {
+  height: 5px;
+  background-color: #E54C49;
+}
+
