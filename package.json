@@ -4,7 +4,7 @@
   "description": "Proxy server for FoodiGo (sara)",
   "main": "server/index.js",
   "scripts": {
-    "server-start": "nodemon server/index.js",
+    "start": "nodemon server/index.js",
     "test": "jest"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/FoodiGo/reviews-proxy#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "pug": "^2.0.0",
     "request": "^2.83.0",

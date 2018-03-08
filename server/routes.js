@@ -6,14 +6,14 @@ const route = express.Router();
 
 route.get('/restaurants/:restaurantId/reviews', (req, res) => {
   request({
-    url: `http://localhost:8001${req.path}`,
+    url: `http://foodigoreviews.us-west-1.elasticbeanstalk.com${req.path}`,
     method: req.method,
   }).pipe(res);
 });
 
 route.put('/restaurants/:restaurantId/reviews/:reviewId', (req, res) => {
   request({
-    url: `http://localhost:8001${req.path}`,
+    url: `http://foodigoreviews.us-west-1.elasticbeanstalk.com${req.path}`,
     method: req.method,
     json: req.body,
   }).pipe(res);
@@ -45,7 +45,7 @@ route.post('/', (req, res) => {
 
 route.get('/pictures/:restaurantId', (req, res) => {
   request({
-    url: `http://localhost:3000${req.path}`,
+    url: `http://foodigopictures.us-west-1.elasticbeanstalk.com${req.path}`,
     method: req.method,
   }).pipe(res);
 });
