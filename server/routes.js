@@ -19,6 +19,14 @@ route.put('/restaurants/:restaurantId/reviews/:reviewId', (req, res) => {
   }).pipe(res);
 });
 
+route.post('/restaurants/:restaurantId/reviews', (req, res) => {
+  request({
+    url: `http://foodigoreviews.us-west-1.elasticbeanstalk.com${req.path}`,
+    method: req.method,
+    json: req.body,
+  }).pipe(res);
+});
+
 
 route.get('/title/:restaurantId', (req, res) => {
   request({
@@ -53,7 +61,7 @@ route.get('/pictures/:restaurantId', (req, res) => {
 
 route.get('/information/:restaurantId', (req, res) => {
   request({
-    url: `http://localhost:3400${req.path}`,
+    url: `http://foodigosidebar-env.us-east-2.elasticbeanstalk.com${req.path}`,
     method: req.method,
   }).pipe(res);
 });
