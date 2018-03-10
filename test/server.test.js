@@ -18,7 +18,7 @@ describe('Proxy Server', () => {
 
   const checkRes = (res) => {
     if (!Array.isArray(res.body)) {
-      done(new Error('Data is not an array!')); 
+      done(new Error('Data is not an array!'));
     }
   };
 
