@@ -23,19 +23,14 @@
 }
 
 #prox-title-map {
-  padding: 5px;
-  flex-basis: 800px;
-}
-
-#prox-photos {
-  margin-left: -500px;
+  width: 300px;
 }
 
 #prox-reviews {
   padding: 5px;
 }
 
-#prox-sidebar{
+#prox-sidebar {
   margin-top: 15px;
   padding: 5px;
 }

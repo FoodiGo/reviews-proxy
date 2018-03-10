@@ -11,10 +11,6 @@ app.use(parse.urlencoded({ extended: false }));
 
 app.set('view engine', 'pug');
 
-app.get('/restaurants/:restaurantId', (req, res) => {
-  res.render('index', { id: req.params.restaurantId });
-});
-
 app.use(express.static(`${__dirname}/../client`));
 
 app.use('/', route);
